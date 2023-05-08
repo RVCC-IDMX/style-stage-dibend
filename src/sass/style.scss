@@ -135,11 +135,14 @@ nav > ul > li {
 
 nav > ul > li > a {
   color: white;
+  text-shadow: none;
 }
 
 a {
   text-underline-position: under;
   transition: text-shadow 0.5s ease-in-out;
+  color: brown;
+  text-shadow: .1rem .1rem .1rem goldenrod;
 }
 
 .skip-link {
