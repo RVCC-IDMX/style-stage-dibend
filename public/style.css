@@ -134,8 +134,8 @@ nav > ul > li > a {
 a {
   text-underline-position: under;
   transition: text-shadow 0.5s ease-in-out;
-  color: brown;
-  text-shadow: 0.1rem 0.1rem 0.1rem grey;
+  color: darkred;
+  text-shadow: 0.1rem 0.1rem 0.1rem hsl(38deg, 95%, 57%);
 }
 
 .skip-link {
@@ -147,5 +147,9 @@ a {
 }
 
 a:hover {
-  text-shadow: 0.1rem 0.1rem 0.1rem goldenrod;
+  text-shadow: 0.1rem 0.1rem 0.1rem hsl(162deg, 99%, 42%);
+}
+
+h2, p {
+  padding-bottom: 1rem;
 }
