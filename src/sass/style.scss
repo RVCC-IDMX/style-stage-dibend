@@ -142,7 +142,7 @@ a {
   text-underline-position: under;
   transition: text-shadow 0.5s ease-in-out;
   color: brown;
-  text-shadow: .1rem .1rem .1rem goldenrod;
+  text-shadow: .1rem .1rem .1rem grey;
 }
 
 .skip-link {
@@ -154,5 +154,5 @@ a {
 }
 
 a:hover {
-    text-shadow: .1rem .1rem .1rem grey;
+    text-shadow: .1rem .1rem .1rem goldenrod;
 }
