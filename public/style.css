@@ -103,6 +103,14 @@ h1, h2, h3 {
   font-weight: 900;
 }
 
+ul {
+  list-style-type: "* ";
+}
+
+li::marker {
+  font-weight: 900;
+}
+
 nav > ul {
   display: grid;
   gap: 2rem;
