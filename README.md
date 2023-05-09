@@ -40,3 +40,4 @@ Use this as the "Publish command" if needed by hosting services such as Netlify.
 
 [Code for Bell's Build Excellent Websites (the source for the Fluid CSS code linked above) ](https://glitch.com/edit/#!/build-excellent-websites)
 
+Background Image by Andrea De Santis on [Unsplash.com](https://unsplash.com/@santesson89)
