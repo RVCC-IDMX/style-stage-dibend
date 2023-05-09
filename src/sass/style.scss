@@ -79,6 +79,11 @@ select {
 
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;900&display=swap');
 
+:root {
+  --gold: hsl(38, 95%, 57%);
+  --green: hsl(162, 99%, 42%);
+}
+
 body {
   line-height: 1.5;
   padding-bottom: 2rem;
@@ -142,7 +147,7 @@ a {
   text-underline-position: under;
   transition: text-shadow 0.5s ease-in-out;
   color: darkred;
-  text-shadow: .1rem .1rem .1rem hsl(38, 95%, 57%);
+  text-shadow: .1rem .1rem .1rem var(--gold);
 }
 
 .skip-link {
@@ -154,7 +159,7 @@ a {
 }
 
 a:hover {
-    text-shadow: .1rem .1rem .1rem hsl(162, 99%, 42%);
+    text-shadow: .1rem .1rem .1rem var(--green);
 }
 
 h2, p {
