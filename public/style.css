@@ -76,6 +76,8 @@ select {
 :root {
   --gold: hsl(38, 95%, 57%);
   --green: hsl(162, 99%, 42%);
+  --white-bg: hsl(100, 100%, 100%, 0.5);
+  --black-bg: hsl(0, 0%, 0%, .5);
 }
 
 body {
@@ -93,7 +95,7 @@ body > * {
   max-width: min(90%, 50rem);
   margin: 0 auto;
   backdrop-filter: blur(1rem);
-  background: hsla(100deg, 100%, 100%, 0.5);
+  background: var(--white-bg);
   padding: 2rem;
   margin: 2rem auto;
   border-radius: 2rem;
@@ -126,7 +128,7 @@ nav > ul {
 }
 
 nav > ul > li {
-  background-color: hsla(0deg, 0%, 0%, 0.5);
+  background-color: var(--black-bg);
   padding: 1rem;
   border-radius: 0.5rem;
 }
